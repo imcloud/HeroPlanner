@@ -1,4 +1,8 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">HeroesPlanner</string>
     <string name="action_settings">Settings</string>
+=======
+    <string name="app_name">HeroPlanner</string>
+>>>>>>> e535e08044465be81e540d7a4dd50100d9a59be6
 </resources>

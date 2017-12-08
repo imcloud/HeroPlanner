@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 include ':app', ':data', ':domain'
+=======
+include ':app', ':data'
+>>>>>>> e535e08044465be81e540d7a4dd50100d9a59be6

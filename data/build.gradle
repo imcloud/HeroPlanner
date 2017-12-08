@@ -1,17 +1,30 @@
 apply plugin: 'com.android.library'
 
 android {
+<<<<<<< HEAD
     def globalConfiguration = rootProject.extensions.getByName("ext")
     compileSdkVersion globalConfiguration.getAt("androidCompileSdkVersion")
     buildToolsVersion globalConfiguration.getAt("androidBuildToolsVersion")
     defaultConfig {
         minSdkVersion globalConfiguration.getAt("androidMinSdkVersion")
         targetSdkVersion globalConfiguration.getAt("androidTargetSdkVersion")
+=======
+    compileSdkVersion 26
+
+
+
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 26
+>>>>>>> e535e08044465be81e540d7a4dd50100d9a59be6
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+<<<<<<< HEAD
 
+=======
+>>>>>>> e535e08044465be81e540d7a4dd50100d9a59be6
     }
 
     buildTypes {
@@ -20,14 +33,21 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e535e08044465be81e540d7a4dd50100d9a59be6
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
+<<<<<<< HEAD
     implementation 'com.android.support:appcompat-v7:27.0.1'
     implementation 'javax.inject:javax.inject:1'
+=======
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+>>>>>>> e535e08044465be81e540d7a4dd50100d9a59be6
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
