@@ -1,6 +1,3 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
-    package="com.aceegg.data" />
-=======
     package="com.aceegg.data"/>
->>>>>>> e535e08044465be81e540d7a4dd50100d9a59be6
+
