@@ -1,5 +1,8 @@
 package com.aceegg.data.net;
 
+import android.arch.lifecycle.LiveData;
+
+import com.aceegg.data.entities.ApiResponse;
 import com.aceegg.data.entities.UserEntity;
 
 import io.reactivex.Observable;
@@ -12,5 +15,5 @@ import retrofit2.http.GET;
 public interface UserApi {
 
     @GET("/user/{id}")
-    Observable<UserEntity> getUserEntityById(int id);
+    LiveData<ApiResponse<UserEntity>> getUserEntityById(int id);
 }

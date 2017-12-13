@@ -11,7 +11,7 @@ ext {
     daggerVersion = '3.9.1'
     gsonVersion = '2.8.2'
     okHttpVersion = '3.9.1'
-    retorfitVersion = '2.3.0'
+    retrofitVersion = '2.3.0'
     rxJavaVersion = '2.1.7'
     rxAndroidVersion = '2.0.1'
     javaxAnnotationVersion = '1.0'
@@ -28,7 +28,10 @@ ext {
             daggerCompiler:     "com.google.dagger:dagger-compiler:${daggerVersion}",
             dagger:             "com.google.dagger:dagger:${daggerVersion}",
             okHttp:             "com.squareup.okhttp:okhttp:${okHttpVersion}",
-            retrofit:           "com.squareup.retrofit2:retrofit:${retorfitVersion}",
+            okHttpLogging:      "com.squareup.okhttp3:logging-interceptor:${okHttpVersion}",
+            retrofit:           "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            retrofitGson:       "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
+            retrofitRxJava:     "com.squareup.retrofit2:adapter-rxjava:${retrofitVersion}",
             gson:               "com.google.code.gson:gson:${gsonVersion}",
             rxJava:             "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
             rxAndroid:          "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}",
